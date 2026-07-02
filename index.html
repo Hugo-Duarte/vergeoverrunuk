@@ -5,36 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VergeOverrunUK — Documenting Council & Highway Neglect</title>
     
-    <!-- Robust Compiled Tailwind CSS Stylesheet Link -->
-    <link href="https://cloudflare.com" rel="stylesheet">
-    
-    <style>
-        /* Custom color overrides matching modern dark themes */
-        body { 
-            background-color: #0f172a !important; 
-            color: #f8fafc !important;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+    <!-- Modern Tailwind v3 Play CDN Engine -->
+    <script src="https://tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            950: '#020617',
+                        }
+                    }
+                }
+            }
         }
-        .bg-slate-900-custom { background-color: #1e293b; }
-        .border-slate-800-custom { border-color: #334155; }
-        .bg-slate-950-custom { background-color: #020617; }
-        .text-transparent-custom {
-            color: #f8fafc;
-        }
-    </style>
+    </script>
 </head>
-<body class="min-h-screen flex flex-col justify-between p-4 md:p-12 max-w-4xl mx-auto">
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between p-6 md:p-12 max-w-4xl mx-auto">
 
     <!-- Header Section -->
-    <header class="flex items-center justify-between border-b border-slate-800-custom pb-6 w-full mb-8">
+    <header class="flex items-center justify-between border-b border-slate-800 pb-6 w-full mb-8">
         <div class="flex items-center space-x-4">
-            <!-- Union Jack Styled Placeholder Icon -->
-            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-slate-900-custom border-2 border-slate-800-custom flex items-center justify-center overflow-hidden font-bold text-xl md:text-2xl tracking-tighter text-blue-500 shadow-md">
+            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-slate-900 border-2 border-slate-800 flex items-center justify-center overflow-hidden font-bold text-xl md:text-2xl tracking-tighter text-blue-500 shadow-md">
                 🇬🇧
             </div>
             <div>
                 <h1 class="text-xl md:text-3xl font-extrabold tracking-tight text-white m-0">vergeoverrunuk</h1>
-                <p class="text-gray-400 text-xs md:text-sm m-0">@VergeOverrunUK</p>
+                <p class="text-slate-400 text-xs md:text-sm m-0">@VergeOverrunUK</p>
             </div>
         </div>
         <span class="bg-blue-600 text-[10px] md:text-xs font-semibold px-2.5 py-1.5 rounded-full text-white tracking-wide uppercase whitespace-nowrap">Campaign Active</span>
@@ -44,77 +41,77 @@
     <main class="space-y-12 flex-grow">
         <!-- Hero Introduction -->
         <div class="space-y-4 mb-8">
-            <h2 class="text-3xl md:text-5xl font-black text-transparent-custom leading-tight">
+            <h2 class="text-3xl md:text-5xl font-black text-white leading-tight">
                 Holding Authorities Accountable. One Verge At A Time.
             </h2>
-            <p class="text-gray-300 text-base md:text-xl max-w-3xl leading-relaxed">
+            <p class="text-slate-300 text-base md:text-xl max-w-3xl leading-relaxed">
                 Anyone with verges in <span class="text-blue-400 font-semibold">#Northumberland</span> experiencing vehicle encroachment, structural damage, or near-misses on your street—please get in touch. We are building a national platform to document past and current infrastructure failures. Let's hold local councils accountable.
             </p>
         </div>
 
         <!-- Evidence Showcase Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            <div class="bg-slate-900-custom border border-slate-800-custom rounded-xl p-5 flex flex-col justify-between mb-4 md:mb-0">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
                 <div>
                     <span class="text-xs uppercase tracking-wider text-red-400 font-bold mb-2 block">🛑 Statutory Duty</span>
-                    <p class="text-sm md:text-base text-gray-300 italic leading-relaxed">"Damaging the highway is illegal (Highways Act 1980). Councils hold an explicit legal duty to remediate hazards, address layout failures, and preserve environmental amenities."</p>
+                    <p class="text-sm md:text-base text-slate-300 italic leading-relaxed">"Damaging the highway is illegal (Highways Act 1980). Councils hold an explicit legal duty to remediate hazards, address layout failures, and preserve environmental amenities."</p>
                 </div>
             </div>
-            <div class="bg-slate-900-custom border border-slate-800-custom rounded-xl p-5 flex flex-col justify-between">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 flex flex-col justify-between">
                 <div>
                     <span class="text-xs uppercase tracking-wider text-blue-400 font-bold mb-2 block">📊 Platform Goals</span>
-                    <p class="text-sm md:text-base text-gray-300 leading-relaxed">We are developing an open, searchable static dashboard to map automated incident logs, photographic proof, and public service correspondence for total public scrutiny.</p>
+                    <p class="text-sm md:text-base text-slate-300 leading-relaxed">We are developing an open, searchable static dashboard to map automated incident logs, photographic proof, and public service correspondence for total public scrutiny.</p>
                 </div>
             </div>
         </div>
 
         <!-- Public Case Timeline Module -->
-        <section class="bg-slate-900-custom border border-slate-800-custom rounded-xl p-6 space-y-6 mb-8">
-            <h3 class="text-xl font-bold text-white tracking-tight border-b border-slate-800-custom pb-3 m-0">Correspondence & Action Log</h3>
+        <section class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-6 mb-8">
+            <h3 class="text-xl font-bold text-white tracking-tight border-b border-slate-800 pb-3 m-0">Correspondence & Action Log</h3>
             <div class="space-y-6 pt-4">
                 
                 <!-- Timeline Item 1 -->
                 <div class="border-l-2 border-red-500 pl-4 space-y-1 mb-4">
                     <div class="text-xs font-mono text-red-400 font-semibold">JULY 2026</div>
                     <h4 class="text-sm font-bold text-white m-0">Notice of Impending Legal Claim Served</h4>
-                    <p class="text-xs md:text-sm text-gray-400">Formal warning issued to Council executive team regarding systematic loss of amenity, property devaluation, and failure to enforce layout regulations.</p>
+                    <p class="text-xs md:text-sm text-slate-400">Formal warning issued to Council executive team regarding systematic loss of amenity, property devaluation, and failure to enforce layout regulations.</p>
                 </div>
 
                 <!-- Timeline Item 2 -->
                 <div class="border-l-2 border-yellow-500 pl-4 space-y-1 mb-4">
                     <div class="text-xs font-mono text-yellow-400 font-semibold">JUNE 2026</div>
                     <h4 class="text-sm font-bold text-white m-0">Delayed Council Assessment Received</h4>
-                    <p class="text-xs md:text-sm text-gray-400">Council response formally indicates a reactive stance, confirming intervention is only considered following reported accidents rather than preventative measures.</p>
+                    <p class="text-xs md:text-sm text-slate-400">Council response formally indicates a reactive stance, confirming intervention is only considered following reported accidents rather than preventative measures.</p>
                 </div>
 
                 <!-- Timeline Item 3 -->
-                <div class="border-l-2 border-gray-500 pl-4 space-y-1">
-                    <div class="text-xs font-mono text-gray-500">MID 2026</div>
+                <div class="border-l-2 border-slate-500 pl-4 space-y-1">
+                    <div class="text-xs font-mono text-slate-500">MID 2026</div>
                     <h4 class="text-sm font-bold text-white m-0">External Property Diminution Review</h4>
-                    <p class="text-xs md:text-sm text-gray-400">Independent assessment confirms local residential asset value degradation directly stemming from structural highway margin neglect.</p>
+                    <p class="text-xs md:text-sm text-slate-400">Independent assessment confirms local residential asset value degradation directly stemming from structural highway margin neglect.</p>
                 </div>
             </div>
         </section>
 
         <!-- Evidence Collection Standards -->
-        <section class="bg-slate-900-custom border border-slate-800-custom rounded-xl p-6 space-y-4 mb-8">
+        <section class="bg-slate-900 border border-slate-800 rounded-xl p-6 space-y-4 mb-8">
             <h3 class="text-lg font-bold text-white m-0">How to Properly Record Evidence</h3>
-            <p class="text-xs md:text-sm text-gray-400">To build cases that stand up to legal scrutiny and formal ombudsman review, ensure your logs include:</p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-gray-300 pt-2">
-                <div class="bg-slate-950-custom p-3 rounded-lg border border-slate-800-custom mb-2 md:mb-0"><strong class="text-blue-400 block mb-1">📸 1. Context & Close-up</strong> Photos showing both clear property layout damage and full vehicle placement.</div>
-                <div class="bg-slate-950-custom p-3 rounded-lg border border-slate-800-custom mb-2 md:mb-0"><strong class="text-blue-400 block mb-1">⏱️ 2. Timestamps</strong> Metadata verified images or clear notes of the exact date, time, and recurrence frequency.</div>
-                <div class="bg-slate-950-custom p-3 rounded-lg border border-slate-800-custom"><strong class="text-blue-400 block mb-1">🚗 3. Identifiers</strong> Clear visibility of vehicle registration plates alongside the specific council zone.</div>
+            <p class="text-xs md:text-sm text-slate-400">To build cases that stand up to legal scrutiny and formal ombudsman review, ensure your logs include:</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-slate-300 pt-2">
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800"><strong class="text-blue-400 block mb-1">📸 1. Context & Close-up</strong> Photos showing both clear property layout damage and full vehicle placement.</div>
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800"><strong class="text-blue-400 block mb-1">⏱️ 2. Timestamps</strong> Metadata verified images or clear notes of the exact date, time, and recurrence frequency.</div>
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800"><strong class="text-blue-400 block mb-1">🚗 3. Identifiers</strong> Clear visibility of vehicle registration plates alongside the specific council zone.</div>
             </div>
         </section>
 
         <!-- Call To Action & Links -->
-        <div class="bg-slate-900-custom border border-slate-800-custom rounded-2xl p-6 md:p-8 space-y-6 mb-8">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6 mb-8">
             <h3 class="text-xl font-bold text-white m-0">Join the Community & Report Incidents</h3>
             <div class="flex flex-wrap gap-4 pt-2">
-                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition duration-200 inline-block no-underline mr-2 mb-2">
+                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-lg transition duration-200 inline-block no-underline">
                     Visit Our Subreddit
                 </a>
-                <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="bg-gray-800 hover:bg-gray-700 text-white font-semibold px-6 py-3 rounded-lg border border-slate-800-custom transition duration-200 inline-block no-underline mb-2">
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-lg border border-slate-700 transition duration-200 inline-block no-underline">
                     Follow on X
                 </a>
             </div>
@@ -122,9 +119,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t border-slate-800-custom pt-6 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4 w-full mt-12">
+    <footer class="border-t border-slate-800 pt-6 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-4 w-full mt-12">
         <p class="m-0">&copy; 2026 VergeOverrunUK. Built securely using GitHub Pages.</p>
-        <p class="font-mono text-gray-600 m-0">VO-STATUS: STANDBY_LAUNCH</p>
+        <p class="font-mono text-slate-600 m-0">VO-STATUS: STANDBY_LAUNCH</p>
     </footer>
 
 </body>
