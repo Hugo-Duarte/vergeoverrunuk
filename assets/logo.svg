@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">VergeOverrunUK logo</title>
+  <desc id="desc">A circular Union Jack inspired mark.</desc>
+  <defs>
+    <clipPath id="circle"><circle cx="60" cy="60" r="54"/></clipPath>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#071114"/>
+  <g clip-path="url(#circle)">
+    <rect width="120" height="120" fill="#012169"/>
+    <path d="M-14 0 120 134M134 0 0 134" stroke="#fff" stroke-width="22"/>
+    <path d="M-14 0 120 134M134 0 0 134" stroke="#C8102E" stroke-width="12"/>
+    <path d="M60 0v120M0 60h120" stroke="#fff" stroke-width="34"/>
+    <path d="M60 0v120M0 60h120" stroke="#C8102E" stroke-width="22"/>
+  </g>
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#071114" stroke-width="6"/>
+</svg>
