@@ -896,3 +896,121 @@ textarea::placeholder {
     justify-content: flex-start;
   }
 }
+
+
+/* Case 001 status, chronology and right-to-reply additions */
+.last-updated {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.75rem 0 0;
+  padding: 0.38rem 0.75rem;
+  border: 1px solid rgba(120, 215, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(120, 215, 255, 0.08);
+  color: #d9f5ff;
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.status-pill-green {
+  border-color: rgba(103, 211, 145, 0.32);
+  background: rgba(103, 211, 145, 0.1);
+  color: #dfffea;
+}
+
+.case-layout-wide {
+  grid-template-columns: minmax(0, 1.25fr) 370px;
+}
+
+.case-update-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.case-update-card,
+.questions-card {
+  border: 1px solid var(--line);
+  background: rgba(22, 34, 38, 0.88);
+  border-radius: 22px;
+  padding: 1.35rem;
+  box-shadow: var(--shadow);
+}
+
+.case-update-card-highlight {
+  border-color: rgba(120, 215, 255, 0.26);
+  background:
+    radial-gradient(circle at top right, rgba(120, 215, 255, 0.12), transparent 34%),
+    rgba(22, 34, 38, 0.9);
+}
+
+.outcome-card,
+.right-reply-card {
+  border-color: rgba(103, 211, 145, 0.28);
+  background:
+    radial-gradient(circle at top right, rgba(103, 211, 145, 0.12), transparent 34%),
+    rgba(22, 34, 38, 0.9);
+}
+
+.timeline-detailed {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.timeline-detailed article {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.timeline-detailed span {
+  min-width: 68px;
+  min-height: 68px;
+  text-align: center;
+  padding: 0.4rem;
+  line-height: 1.15;
+  background: linear-gradient(135deg, var(--accent), #b62600);
+}
+
+.timeline-detailed p:last-child {
+  margin-bottom: 0;
+}
+
+.questions-layout {
+  align-items: center;
+}
+
+.questions-card ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.questions-card li {
+  margin-bottom: 0.78rem;
+  color: #dcecef;
+}
+
+.questions-card li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .case-layout-wide,
+  .case-update-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .timeline-detailed article {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-detailed span {
+    min-width: 58px;
+    min-height: 42px;
+    width: fit-content;
+  }
+}
