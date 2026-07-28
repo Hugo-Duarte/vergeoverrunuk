@@ -73,7 +73,7 @@ A static, responsive campaign site for **VergeOverrunUK**, configured for **verg
 
 ## Pedestrian danger reporting
 
-Case studies should record public-safety impact, not just visual verge damage. Where relevant, include whether the verge overrun or pavement encroachment reaches a property exit, blocks a footway, forces pedestrians towards live traffic, or affects children, disabled residents, pushchairs or other vulnerable users.
+Case studies should record public safety impact, not just visual verge damage. Where relevant, include whether the verge overrun or pavement encroachment reaches a property exit, blocks a footway, forces pedestrians towards live traffic, or affects children, disabled residents, pushchairs or other vulnerable users.
 
 The site is intended to support reports from council estates, private estates, new-build developments and partly adopted roads. Keep public pages summary-led until evidence has been checked and redacted.
 
