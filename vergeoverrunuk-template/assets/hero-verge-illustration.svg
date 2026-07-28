@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8fb0b7"/>
+      <stop offset="1" stop-color="#3c4a4a"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" x2="1">
+      <stop offset="0" stop-color="#5f7f22"/>
+      <stop offset="1" stop-color="#273916"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect y="420" width="1600" height="480" fill="url(#grass)"/>
+  <path d="M0 760 C260 650 460 650 720 690 C1000 735 1220 645 1600 595 L1600 900 L0 900 Z" fill="#76685f"/>
+  <path d="M0 820 C230 730 430 735 720 760 C990 783 1260 720 1600 690" fill="none" stroke="#4a3e38" stroke-width="90" stroke-linecap="round" opacity="0.65"/>
+  <path d="M80 790 C330 712 480 720 700 742" fill="none" stroke="#2b261f" stroke-width="32" stroke-linecap="round" opacity="0.7"/>
+  <path d="M840 760 C1070 766 1260 710 1540 700" fill="none" stroke="#2b261f" stroke-width="28" stroke-linecap="round" opacity="0.7"/>
+  <path d="M0 620 C290 560 520 590 760 615 C1110 650 1290 570 1600 520" fill="none" stroke="#152023" stroke-width="170" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="1270" cy="720" r="42" fill="#b9c6ca" opacity="0.45"/>
+</svg>
