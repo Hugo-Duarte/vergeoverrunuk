@@ -11,6 +11,8 @@ A static, responsive campaign site for **VergeOverrunUK**, configured for **verg
 - The wording now states that no formal court claim has been issued and any pre-action position is under preparation until actually sent.
 - Visible dummy buttons, inactive form endpoints and generic social links have been removed.
 - Case pages are ready to support images and documents once redacted material is available.
+- A privacy, redaction, corrections and right-to-reply page has been added: `privacy.html`.
+- Public police reference numbers and other sensitive identifiers should remain in the private evidence bundle unless publication is necessary and proportionate.
 
 ## Files
 
@@ -21,6 +23,7 @@ A static, responsive campaign site for **VergeOverrunUK**, configured for **verg
 - `assets/hero-verge-illustration.svg` — hero background illustration
 - `assets/cases/` — folder for future redacted case images and documents
 - `cases/case-01.html` — Case Study #1 summary page
+- `privacy.html` — privacy, redaction, corrections and right-to-reply policy
 - `CNAME` — custom domain file for `vergeoverrun.uk`
 
 ## Publish or redeploy on GitHub Pages
@@ -62,7 +65,43 @@ A static, responsive campaign site for **VergeOverrunUK**, configured for **verg
 ## Important publishing notes
 
 - Treat claims as allegations unless they have been independently determined.
-- Redact private personal data, faces, phone numbers, exact door numbers where needed and vehicle registrations where appropriate.
-- Keep a private, unedited evidence bundle separate from the public website.
+- Redact private personal data, faces, all identifiable children, phone numbers, signatures, direct email addresses, exact door numbers where needed, vehicle registrations and hidden metadata where appropriate.
+- Keep a private, unedited evidence bundle separate from the public website, including full police or complaint reference numbers unless publication is genuinely necessary.
 - Consider offering councils, developers or landowners a right of reply before publishing detailed allegations or documents.
 - Keep legal-status wording accurate: do not say a Letter Before Action, council warning or claim has been submitted until it has actually been sent or filed.
+
+
+## Pedestrian danger reporting
+
+Case studies should record public-safety impact, not just visual verge damage. Where relevant, include whether the verge overrun or pavement encroachment reaches a property exit, blocks a footway, forces pedestrians toward live traffic, or affects children, disabled residents, pushchairs or other vulnerable users.
+
+The site is intended to support reports from council estates, private estates, new-build developments and partly adopted roads. Keep public pages summary-led until evidence has been checked and redacted.
+
+
+## Privacy and redaction checklist
+
+Before publishing images, documents, correspondence extracts or downloadable files:
+
+1. Use locality-level location information such as `Blyth, Northumberland` unless a precise address is necessary.
+2. Name organisations where relevant, but avoid unnecessary publication of individual staff names, direct emails, signatures and phone numbers.
+3. Blur identifiable faces, all children, uninvolved residents, pedestrians, drivers and vehicle registration marks.
+4. Remove unrelated personal material from email chains.
+5. Check PDFs, Word files and images for hidden comments, tracked changes, metadata and embedded personal information.
+6. Quote relevant extracts rather than publishing full unredacted correspondence bundles.
+7. Keep the public page focused on documented facts, attributed statements, resident reports and questions awaiting answer.
+8. Avoid stating illegality, hidden motive, exact value loss or future injury as established fact unless independently determined.
+
+The public site can be strong and evidence-led without exposing unnecessary personal data.
+
+
+## 2026-07-28 final safety/privacy edits
+
+Before deploying the current package, Case 001 was adjusted to:
+
+- remove the reported property-value figure from the public case facts;
+- replace it with "Potential property impact: Not yet professionally assessed";
+- avoid public police incident reference numbers;
+- soften language around vehicle movement, mud/rutting and pedestrian-safety concerns;
+- update the evidence-publication heading to say supporting images and documents are being redacted and reviewed before publication;
+- add footer links for Privacy, Corrections and Contact;
+- expand the privacy page with operator/contact, lawful basis, sharing, retention, rights, ICO complaint and cookies/analytics wording.

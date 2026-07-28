@@ -1014,3 +1014,28 @@ textarea::placeholder {
     width: fit-content;
   }
 }
+
+
+/* Privacy and publication policy additions */
+.mini-card-accent {
+  border-color: rgba(255, 209, 102, 0.28);
+  background:
+    radial-gradient(circle at top right, rgba(255, 209, 102, 0.12), transparent 34%),
+    rgba(22, 34, 38, 0.86);
+}
+
+.privacy-summary-card {
+  border-color: rgba(255, 209, 102, 0.28);
+  background:
+    radial-gradient(circle at top right, rgba(255, 209, 102, 0.12), transparent 34%),
+    rgba(22, 34, 38, 0.9);
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 0.35rem;
+  color: var(--accent-2);
+  font-weight: 900;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
