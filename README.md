@@ -101,7 +101,7 @@ Before deploying the current package, Case 001 was adjusted to:
 - remove the reported property-value figure from the public case facts;
 - replace it with "Potential property impact: Not yet professionally assessed";
 - avoid public police incident reference numbers;
-- soften language around vehicle movement, mud/rutting and pedestrian-safety concerns;
+- soften language around vehicle movement, mud/rutting and pedestrian safety concerns;
 - update the evidence-publication heading to say supporting images and documents are being redacted and reviewed before publication;
 - add footer links for Privacy, Corrections and Contact;
 - expand the privacy page with operator/contact, lawful basis, sharing, retention, rights, ICO complaint and cookies/analytics wording.
