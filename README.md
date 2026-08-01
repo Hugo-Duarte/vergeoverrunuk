@@ -7,7 +7,7 @@ A responsive UK-English campaign website package for **VergeOverrunUK**.
 - Homepage written as a national evidence campaign.
 - **Case Study #1** added for Blyth, Northumberland as a documented summary case.
 - Dedicated summary page: `cases/case-01.html`.
-- Detailed images and correspondence are not published yet; the public case page includes a documented chronology, current status, FOI transparency concerns, outcome sought, proposed Ombudsman route, right of reply and records still sought.
+- Detailed images and correspondence are not published yet; the public case page includes a documented chronology, current status, Freedom of Information transparency concerns, outcome sought, proposed Ombudsman route, right of reply and records still sought.
 - The wording states that no formal court claim has been issued.
 - Visible dummy buttons, inactive form endpoints and generic social links have been removed.
 - Case pages support images and documents once redacted material is available.
@@ -28,7 +28,7 @@ A responsive UK-English campaign website package for **VergeOverrunUK**.
 ## Publication checklist
 
 1. Check the public pages before making them live.
-2. Confirm the custom domain remains `vergeoverrun.uk`.
+2. Confirm the public domain remains `vergeoverrun.uk`.
 3. Check that no private personal data appears in public HTML, images, documents or filenames.
 4. Keep unredacted evidence in the private bundle.
 5. Recheck the live site after publication.
@@ -67,7 +67,7 @@ A responsive UK-English campaign website package for **VergeOverrunUK**.
 - Consider offering councils, developers or landowners a right of reply before publishing detailed allegations or documents.
 - Keep legal-status wording accurate: do not say a Letter Before Action, council warning or claim has been submitted until it has actually been sent or filed.
 
-## Pedestrian danger reporting
+## Pedestrian safety concern reporting
 
 Case studies should record public safety impact, not just visual verge damage. Where relevant, include whether the verge overrun or pavement encroachment reaches a property exit, blocks a footway, forces pedestrians towards live traffic, or affects children, disabled residents, pushchairs or other vulnerable users.
 
@@ -95,8 +95,8 @@ The case page now includes:
 - Current status — 31 July 2026.
 - Case summary and documented records established.
 - What remains disputed.
-- Full chronology from 2018 onwards, including the 31 July disclosure and next procedural steps.
-- FOI disclosure and outstanding transparency concerns.
+- Full chronology from 2018 onwards, including the 31 July disclosure and current procedural steps under preparation.
+- Freedom of Information disclosure and outstanding transparency concerns.
 - Records still sought.
 - Outcome sought.
 - Ombudsman complaint focus.
@@ -111,4 +111,4 @@ Keep full police references, unredacted correspondence and private identifiers i
 
 ## Evidence-refinement update
 
-Case Study #1 has been refined to separate established records, disputed matters, publication safeguards, outcome sought, FOI review issues and proposed Ombudsman points. The homepage remains high-level while detailed chronology and records sought stay on the case page.
+Case Study #1 has been refined to separate established records, disputed matters, publication safeguards, outcome sought, Freedom of Information review issues and proposed Ombudsman points. The homepage remains high-level while detailed chronology and records sought stay on the case page.
