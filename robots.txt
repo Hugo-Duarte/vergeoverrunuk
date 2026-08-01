@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vergeoverrun.uk/sitemap.xml
