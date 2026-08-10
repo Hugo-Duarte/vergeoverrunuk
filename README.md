@@ -95,7 +95,7 @@ The case page now includes:
 - Current status — 31 July 2026.
 - Case summary and documented records established.
 - What remains disputed.
-- Full chronology from 2018 onwards, including the 31 July disclosure and current procedural steps under preparation.
+- Full chronology from 2018 onwards, including the 31 July disclosure, the 1 August right-of-reply notifications, and the 8–10 August service-strip maintenance correspondence.
 - Freedom of Information disclosure and outstanding transparency concerns.
 - Records still sought.
 - Outcome sought.
@@ -109,6 +109,6 @@ Footer status wording: **Case Study #1 is live as a documented summary. Supporti
 
 Keep full police references, unredacted correspondence and private identifiers in the private evidence bundle unless publication is necessary and proportionate.
 
-## Evidence-refinement update
+## Evidence-refinement and chronology update
 
 Case Study #1 has been refined to separate established records, disputed matters, publication safeguards, outcome sought, Freedom of Information review issues and proposed Ombudsman points. The homepage remains high-level while detailed chronology and records sought stay on the case page.
