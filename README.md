@@ -95,7 +95,7 @@ The case page now includes:
 - Current status — 31 July 2026.
 - Case summary and documented records established.
 - What remains disputed.
-- Full chronology from 2018 onwards, including the 31 July disclosure, the 1 August right-of-reply notifications, and the 8–10 August service-strip maintenance correspondence.
+- Full chronology from 2018 onwards, including the 31 July disclosure, the 1 August right-of-reply notifications, the 8–10 August service-strip maintenance correspondence, and the 11 August Prime Minister's Office contact.
 - Freedom of Information disclosure and outstanding transparency concerns.
 - Records still sought.
 - Outcome sought.
