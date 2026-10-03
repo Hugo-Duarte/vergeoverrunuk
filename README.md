@@ -1,6 +1,6 @@
 # VergeOverrunUK content package
 
-A responsive UK-English campaign website package for **VergeOverrunUK**.
+A responsive UK-English campaign website package for **VergeOverrunUK**. 
 
 ## Current version
 
