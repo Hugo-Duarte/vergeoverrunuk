@@ -1,13 +1,13 @@
 # VergeOverrunUK content package
 
-A responsive UK-English campaign website package for **VergeOverrunUK**. 
+A responsive UK-English campaign website package for **VergeOverrunUK**.
 
 ## Current version
 
 - Homepage written as a national evidence campaign.
 - **Case Study #1** added for Blyth, Northumberland as a documented summary case.
 - Dedicated summary page: `cases/case-01.html`.
-- Detailed images and correspondence are not published yet; the public case page includes a documented chronology, current status, Freedom of Information transparency concerns, outcome sought, proposed Ombudsman route, right of reply and records still sought.
+- Detailed images and correspondence are not published yet; the public case page includes a documented chronology, current status, Freedom of Information and Environmental Information Regulations transparency concerns, outcome sought, Local Government and Social Care Ombudsman status, right of reply and records still sought.
 - The wording states that no formal court claim has been issued.
 - Visible dummy buttons, inactive form endpoints and generic social links have been removed.
 - Case pages support images and documents once redacted material is available.
@@ -88,18 +88,18 @@ Before publishing images, documents, correspondence extracts or downloadable fil
 
 The public site can be strong and evidence-led without exposing unnecessary personal data.
 
-## Case Study #1 — 31 July 2026 current-status update
+## Case Study #1 — 5 October 2026 current-status update
 
 The case page now includes:
 
-- Current status — 31 July 2026.
+- Current status — 5 October 2026.
 - Case summary and documented records established.
 - What remains disputed.
-- Full chronology from 2018 onwards, including the 31 July disclosure, the 1 August right-of-reply notifications, the 8–10 August service-strip maintenance correspondence, and the 11 August Prime Minister's Office contact.
+- Full chronology from 2018 onwards, including the 31 July disclosure, the 1 August right-of-reply notifications, the 8–10 August service-strip maintenance correspondence, and the 11 August Prime Minister's Office contact, the 5 October 2026 LGSCO complaint submission and the 5 October 2026 information-access follow-ups.
 - Freedom of Information disclosure and outstanding transparency concerns.
 - Records still sought.
 - Outcome sought.
-- Ombudsman complaint focus.
+- Local Government and Social Care Ombudsman complaint submitted on 5 October 2026; no finding has yet been made.
 - Reported impact.
 - What the website does not claim.
 - Right of reply and corrections.
